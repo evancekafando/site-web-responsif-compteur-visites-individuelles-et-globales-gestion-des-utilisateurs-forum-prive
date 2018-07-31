@@ -1,0 +1,365 @@
+body {
+   background-color: #eee;
+  padding-top: 40px;
+  padding-bottom: 40px;
+ 
+
+}
+/*block {
+	clear:both;
+}*/
+#pagetitle {
+	float: left;
+}
+#pagetitle {
+	padding:0px 0px 0px 0px;
+	clear:both;
+	padding-top: 5px;
+	background: none   ;
+	border:  ;
+}
+
+#pagetitle h1 {
+	color: inherit;
+	font:normal normal bold 14px Tahoma, Calibri, Verdana, Geneva, sans-serif;
+}
+
+.blockhead {
+	font:  normal 12px Tahoma, Calibri, Verdana, Geneva, sans-serif;
+	color:#ffffff;
+	background-color:#1D2020; /*url(images/buttons/newbtn_middle.png) repeat-x  */;
+	padding:4px 10px 4px 10px;
+	border:1px solid #5a7f97;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	margin:0 0 0 0;
+}
+
+.blockhead h2 {
+	font-weight:bold;
+}
+.blocksubhead {
+	font:  normal 12px ;
+	color:#3e3e3e;
+	background:#e9e9e9 none repeat-x  ;
+	padding:4px 10px 4px 10px;
+	border-top:1px solid #cecece;
+	
+}
+.blockrow {
+	background:none none   ;
+	padding:5px 10px 5px 10px;
+	border:  ;
+	color:;
+	font:    ;
+}
+.formcontrols input,select,textarea {
+	box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+}
+.formcontrols input.textbox {
+	height:25px;
+	*height:12px;
+}
+.formcontrols .blocksubhead {
+	font-weight:bold;
+}
+
+.vbform .blockhead {
+	margin-top:2em;
+}
+
+.vbform .blockhead:first-child {
+	margin-top:0;
+}
+.settings_form_top_border {
+	border-top: 1px solid #6B91AB;
+}
+.blockbody.settings_form_border {
+	border-right: 1px solid #6B91AB;
+	border-left: 1px solid #6B91AB;
+	border-bottom: 1px solid #6B91AB;
+}
+.vbform {
+	clear:both;
+	width:auto;
+	max-width:100%;
+	_width:100%;
+	margin:0 auto 2em;
+}
+
+.formcontrols {
+	border-right: 1px solid #6B91AB;
+	border-left: 1px solid #6B91AB;
+	border-bottom: 1px solid #6B91AB;
+}
+
+.formcontrols .blockrow {
+	background:#FFFFFF none repeat-x center bottom;
+	border-top:solid 1px #cedfeb;
+	padding:10px 5px;
+}
+
+/* div.section is needed to resolve IE7 percentage width bug */
+.formcontrols .section {
+	padding:0 15px;
+}
+
+.formcontrols > *:first-child,
+.formcontrols .blocksubhead + .blockrow,
+.formcontrols .section .blockrow:first-child {
+	border-top:none;
+}
+
+/* BASIC CONTROL STYLING */
+
+.button {
+	padding:2px 2px;
+}
+
+.button:hover {
+	color:#417394;
+}
+
+.button[type="reset"]:hover {
+	color:#417394;
+}
+
+.textbox, textarea, select {
+	font:  normal 11px Tahoma, Calibri, Verdana, Geneva, sans-serif;
+	color:#000000;
+	background:rgb(255, 255, 255) none   ;
+	border:1px solid #6B91AB;
+	padding:4px;
+	outline:0;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+
+.textbox[disabled],
+textarea[disabled] {
+	font-style:italic;
+	color:#777777;
+}
+
+.formcontrols .blockrow input.textbox:focus,
+.formcontrols .blockrow textarea:focus {
+	background: #f2f6f8 none   ;
+}
+
+/* INPUT / SELECT / TEXTAREA / GROUP */
+
+form .rightcol {
+	display:block;
+	margin-left:212px;
+	max-width:496px;
+	*margin-left:0;
+	float:none;
+}
+
+.blockbody.formcontrols .blockrow .rightcol * {
+	margin-left:0;
+	width:auto;
+}
+
+.blockbody.formcontrols .blockrow .rightcol .primary {
+	width:50%;
+}
+.blockbody.formcontrols .blockrow .rightcol textarea.primary {
+	width:70%;
+}
+.blockbody.formcontrols .blockrow .rightcol .description {
+	width:auto;
+}
+
+.formcontrols .blockrow .primary {
+	width:248px;
+}
+.formcontrols .blockrow .primary.full {
+	max-width:100%;
+	width:496px;
+	float:left;
+}
+formcontrols .blockrow .group {
+	width:100%;
+}
+
+.formcontrols .blockrow .group li {
+	margin-top:5px;
+	list-style-type:none;
+}
+.formcontrols .blockrow ul { margin-left:0; padding-left:0 }
+.formcontrols .blockrow .group li:first-child {
+	margin-top:0;
+}
+.formcontrols .blockrow .group .textbox {
+	width:248px;
+}
+
+.formcontrols .blockrow .primary.center {
+
+}
+.formcontrols .blockrow .primary.center img.icon {
+	border:1px solid rgb(65,93,141);
+}
+
+.formcontrols .blockrow .titleprefix {
+	float:left;
+	margin-right:0.5em;
+}
+
+.formcontrols .blockrow * .group {
+	width:auto;
+	float:none;
+}
+
+.formcontrols .blockrow input.textbox[size] {
+	width:auto;
+}
+
+.editor_textbox textarea {
+	width:500px;
+	max-width:98%;
+	min-width:98%;
+	height:200px;
+	float:none;
+}
+
+.editor_textbox textarea, #ie8#fix {
+	width:98%;
+}
+
+.formcontrols .blockrow input.numeric,
+.formcontrols .blockrow select.numeric {
+	text-align:right;
+}
+/*********************************LABEL**********************/
+.formcontrols .blockrow label,
+.formcontrols .blockrow .group.multifield label,
+.formcontrols .blockrow .groupoption label {
+	display:block;
+	margin-bottom:2px;
+}
+
+.formcontrols .blockrow label {
+	width:212px;
+	float:left;
+	font-size:13px;
+
+}
+.formcontrols .blockrow label.full {
+	width:auto;
+	float:none;
+	font-weight:bold;
+}
+
+.formcontrols .blockrow label.floatlabel {
+	margin-left: 10px;
+
+}
+
+.formcontrols .blockrow * label {
+	/* undoes the above two rules */
+	display:block;
+	margin-bottom:auto;
+	width:auto;
+	float:none;
+}
+
+.formcontrols .blockrow .group li label,
+.formcontrols .blockrow .group dt label {
+	width:212px;
+	float:left;
+}
+
+.formcontrols .blockrow .group.full li label,
+.formcontrols .blockrow .group.full dt label {
+	width:auto;
+}
+
+
+
+.formcontrols .blockrow .label {
+	margin-bottom:8px;
+
+}
+
+.formcontrols .blockrow.singlecheck label {
+	float:left;
+}
+
+.formcontrols fieldset.blockrow legend {
+	margin:0;
+	font-size:13px;
+	font-weight:bold;
+	padding-bottom:10px\9; /*IE Hack*/
+}
+/**********************************DESCRIPTION*******************************************/
+.formcontrols .blockrow .description {
+	color:#777777;
+	font-size:11px;
+	max-width:496px;
+	font-style: italic;
+	overflow:hidden;
+	line-height:150%;
+	margin-bottom:5px;
+}
+.blockrow.texteditor .description {
+	float:none;
+	width:auto;
+	margin-top:2px;
+}
+.formcontrols .blockrow .group.numeric + .description {
+	/* descriptions to the right of numeric groups */
+}
+/********************************BOUTTON************************************************/
+/*.formcontrols input.button,.actionbuttons {
+	max-width:100%;
+}*/
+
+.blockfoot.actionbuttons.redirect_button {
+	background-color:transparent;
+	padding-top:5px;
+}
+/*.blockfoot.actionbuttons.redirect_button  .group {
+	padding-right: 0px;
+}*/
+.actionbuttons .group {
+	float:none;
+	text-align:right;
+	padding: 10px 0 0 0;
+}
+
+/*.vbform .actionbuttons .group {
+	margin:0 auto;
+	width:auto;
+	max-width:100%;
+	_width:100%;
+}*/
+
+/*.actionbuttons .small_text_buttons, .actionbuttons .small_text_buttons input.button {
+    padding-left:10px;
+    padding-right:10px;
+}*/
+
+
+.actionbuttons .group .button {
+   	cursor:pointer;
+	padding: 2.5px 5px;
+	font:   bold 11px Tahoma, Calibri, Verdana, Geneva, sans-serif;
+	border:1px solid #a8a8a8;
+	color:#424242;
+	-webkit-border-radius:15px; -moz-border-radius:15px;border-radius:15px;
+	/*background:#e9e9e9 url(images/gradients/generic_button.png) repeat-x top left;*/
+}
+
+.actionbuttons .group .button:hover {
+	/*background: #efefef url(images/gradients/generic_button.png) repeat-x  ;*/
+	color: #417394;
+}
